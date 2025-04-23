@@ -16,3 +16,11 @@ h1 {
   font-family: "Poetsen One", sans-serif;
   color: white;
 }
+ .fade-in-image {
+      opacity: 0;
+      transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
+    }
+
+    .fade-in-wrapper:hover .fade-in-image { /* Or, if you don't want hover, remove :hover */
+      opacity: 2;
+    }
