@@ -10,11 +10,14 @@ p {
 
 img{
   border-radius: 30px;
+  border-style:solid;
+  border-color: white;
 }
 
 h1 {
   font-family: "Poetsen One", sans-serif;
   color: white;
+  
 }
  .fade-in-image {
       opacity: 0;
@@ -22,5 +25,15 @@ h1 {
     }
 
     .fade-in-wrapper:hover .fade-in-image { /* Or, if you don't want hover, remove :hover */
+      opacity: 2;
+    }
+
+
+ .fade-in-image2 {
+      opacity: 0;
+      transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
+    }
+
+    .fade-in-wrapper2:hover .fade-in-image { /* Or, if you don't want hover, remove :hover */
       opacity: 2;
     }
