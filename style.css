@@ -1,14 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delius&family=Poetsen+One&display=swap");
 
 html {
-  background-color: white;
+  background-color: purple;
   padding-left: 20px;
+}
+p {
+  color: white;
+  font-family: "Playwrite AU SA", cursive;
 }
 
 img{
   border-radius: 30px;
+  border-style:solid;
+  border-color: white;
 }
 
 h1 {
-  font-family: "Poetsen One", sans-serif;
+  font-family: "Playwrite AU SA", cursive;
+  color: rgb(226, 189, 250);
+  
 }
+ .fade-in-image {
+      opacity: 0;
+      transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
+    }
+
+    .fade-in-wrapper:hover .fade-in-image { /* Or, if you don't want hover, remove :hover */
+      opacity: 2;
+    }
+
+
+ .fade-in-image2 {
+      opacity: 0;
+      transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
+    }
+
+    .fade-in-wrapper2:hover .fade-in-image2 { /* Or, if you don't want hover, remove :hover */
+      opacity: 2;
+    }
+
+ .fade-in-image3 {
+      opacity: 0;
+      transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
+    }
+
+    .fade-in-wrapper3:hover .fade-in-image3 { /* Or, if you don't want hover, remove :hover */
+      opacity: 2;
+    }
