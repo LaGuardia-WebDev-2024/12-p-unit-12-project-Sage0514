@@ -6,6 +6,7 @@ html {
 }
 p {
   color: white;
+  font-family: "Playwrite AU SA", cursive;
 }
 
 img{
@@ -15,8 +16,8 @@ img{
 }
 
 h1 {
-  font-family: "Poetsen One", sans-serif;
-  color: white;
+  font-family: "Playwrite AU SA", cursive;
+  color: rgb(226, 189, 250);
   
 }
  .fade-in-image {
@@ -34,6 +35,15 @@ h1 {
       transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
     }
 
-    .fade-in-wrapper2:hover .fade-in-image { /* Or, if you don't want hover, remove :hover */
+    .fade-in-wrapper2:hover .fade-in-image2 { /* Or, if you don't want hover, remove :hover */
+      opacity: 2;
+    }
+
+ .fade-in-image3 {
+      opacity: 0;
+      transition: opacity 1s ease-in-out; /* Adjust duration and easing as needed */
+    }
+
+    .fade-in-wrapper3:hover .fade-in-image3 { /* Or, if you don't want hover, remove :hover */
       opacity: 2;
     }
